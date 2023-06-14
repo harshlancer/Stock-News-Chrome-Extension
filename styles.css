@@ -1,0 +1,41 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 800;
+    width: 200px;
+
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Additional styles for each stockText element */
+  #stockText1,
+  #stockText2,
+  #stockText3,
+  #stockText4,
+  #stockText5 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #visit1,
+  #visit2,
+  #visit3,
+  #visit4,
+  #visit5{
+    cursor: pointer;
+    font-size: 15px;
+    color:blueviolet
+  }
